@@ -37,6 +37,17 @@ public class Main {
         }
     }
 
+    public static int findId(List<Student> arrayList, int id) {
+        System.out.println("Show list by index way");
+        for (int i = 0; i < arrayList.size(); i++) {
+            Student temp = arrayList.get(i);
+            if (temp.getId() == id ) return i;
+//            temp.setMark(temp.getMark()-i);
+            System.out.println(temp);
+        }
+        return  -1;
+    }
+
     // cách 2 duyệt kiểu foreach
     public static void showListForeach(List<Student> arrayList) {
         System.out.println("Show list by foreach way");
@@ -145,6 +156,18 @@ public class Main {
         studentTreeSet.add(s3);
         main.showSetForeachGeneric(studentTreeSet);
 
+        // chữa bài
+        Student temp1 = null;
+        for (Student s: studentSet) {
+            if (s.getId() == 2) {
+                temp1 = s;
+            }
+        }
+        System.out.println("temp1" + temp1);
+        studentSet.remove(temp1);
+        System.out.println("========");
+        main.showSetIteratorGeneric(studentSet);
+        System.out.println("========");
         // Sort
         // Cách 1: gọi hàm sort() và implement Comparator
         studentArrayList.sort(new Comparator<Student>() {

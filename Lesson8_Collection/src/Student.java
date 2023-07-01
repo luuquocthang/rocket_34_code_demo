@@ -1,4 +1,5 @@
 public class Student implements Comparable<Student> {
+    @CustomAnnotation(value = "id")
     private int id;
     private String name;
     private int mark;
