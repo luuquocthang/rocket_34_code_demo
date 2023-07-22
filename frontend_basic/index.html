@@ -194,7 +194,7 @@
         </div>
     </div>
 
-    <table>
+    <table id="studentTbl">
         <caption>Student</caption>
         <colgroup>
             <col span="3">
@@ -214,27 +214,27 @@
             <th>other</th>
         </tr>
         <tr>
-            <td>col1</td>
-            <td>col2</td>
-            <td>col3</td>
-            <td>col4</td>
+            <td>1</td>
+            <td>Thang1</td>
+            <td>1994-09-01</td>
+            <td>10</td>
             <td><input type="radio" name="genderr1" checked></td>
             <td><input type="radio" name="genderr1"></td>
             <td><input type="radio" name="genderr1"></td>
             <td><button onclick="deleleStudent(event)">Delete</button></td>
         </tr>
         <tr>
-            <td>col1</td>
-            <td>col2</td>
-            <td>col3</td>
-            <td>col4</td>
+            <td>2</td>
+            <td>Thang1</td>
+            <td>1994-09-01</td>
+            <td>10</td>
             <td><input type="radio" name="genderr2"></td>
             <td><input type="radio" name="genderr2" checked></td>
             <td><input type="radio" name="genderr2"></td>
             <td><button onclick="deleleStudent(event)">Delete</button></td>
         </tr>
         <tr>
-            <td colspan="3">total</td>
+            <td colspan="4">total</td>
             <td>col4</td>
             <td>col4</td>
             <td>col4</td>
@@ -244,13 +244,10 @@
 
     <hr>
 
-    <h2>Student form</h2>
-    <label for="name1">Name:</label>
-    <input id="name1" type="text" required placeholder="enter name"> <br>
-    <form action="">
-        <label for="name">Name:</label>
-        <input id="name" type="text" required placeholder="enter name"> <br>
-
+    <h2 id="studentFromTitle">Student form</h2>
+    <form id="addStudentForm" action="">
+        <label for="nameipt">Name:</label>
+        <input id="nameipt" type="text" required placeholder="enter name"> <br>
         <label for="pass">Pass:</label>
         <input id="pass" type="hidden" value="1234"><br>
         <label for="dob">Date:</label>
@@ -258,13 +255,13 @@
         <label for="mark">Mark:</label>
         <input id="mark" type="number" max="30"> <br>
 
-        <label for="male">Male</label>
+        <!-- <label for="male">Male</label>
         <input id="male" type="checkbox" name="gender">
         <label for="female">Fe-Male</label>
         <input id="female" type="checkbox" name="gender">
         <label for="other">Other</label>
         <input id="other" type="checkbox" name="gender">
-        <br>
+        <br> -->
 
         <label for="male">Male</label>
         <input id="male" type="radio" name="gender">
@@ -273,21 +270,24 @@
         <label for="other">Other</label>
         <input id="other" type="radio" name="gender">
 
-        <br>
+        <!-- <br>
         <label for="cars">Car:</label>
         <select id="cars">
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
             <option value="vw">VW</option>
             <option value="audi" selected>Audi</option>
-        </select>
+        </select> -->
 
         <br>
-        <button>Abc</button>
+        
         <input type="submit" value="Add">
         <input type="reset" value="Clear">
     </form>
-
+    <div id="other">
+        <button>Abc</button>
+    </div>
+    
     <footer>
         <p>copy right @l2t</p>
         <ul class="ft-icon">
@@ -298,6 +298,7 @@
     </footer>
 
     <!-- script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/01f24c40cf.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

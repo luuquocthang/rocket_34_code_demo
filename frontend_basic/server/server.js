@@ -241,7 +241,7 @@ const students = [
 ];
 
 const test1 = {
-    "a": "thang"
+    "message": "OK"
 }
 
 app.get('/test1', cors(), function (req, res, next) {
