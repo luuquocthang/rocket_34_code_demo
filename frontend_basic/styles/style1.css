@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 #content3 {
@@ -11,7 +12,7 @@
 }
 
 p {
-    color: brown;
+    /* color: brown; */
 }
 
 form input::placeholder {
@@ -81,7 +82,7 @@ form input::placeholder {
 
 #header {
     position: sticky;
-    height: 90px;
+    height: 30px;
     background-color: azure;
     top: 0;
     display: flex;
@@ -107,4 +108,38 @@ form input::placeholder {
 #header div a {
     flex-basis: calc(100%/5);
     text-align: center;
+}
+
+footer {
+    background-color: black;
+    
+}
+
+footer p {
+    color: gray;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .ft-icon {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer .ft-icon i {
+    color: antiquewhite;
+    margin: 0 10px;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+}
+
+.font-size-10 {
+    font-size: 10px;
 }

@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FE Basic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style1.css">
-    <link rel="stylesheet" href="styles/style2.css">  
+    <link rel="stylesheet" href="styles/style2.css">
     <style>
         table {
             font-family: arial, sans-serif;
@@ -34,14 +36,14 @@
         }
 
         p {
-            color: burlywood;
+            /* color: burlywood; */
         }
     </style>
-    
+
 </head>
 
 <body>
-    <header id="header">
+    <header id="header" class="text-secondary">
         <img src="./photos/black-cat-back.webp" width="40px" height="30px">
         <div>
             <a href="#content2">Content2</a>
@@ -50,7 +52,7 @@
             <a href="https://google.com.vn">Google</a>
             <a href="mailto:thanglq.l2t@gmail.com">mail</a>
         </div>
-        
+
         <!-- <a href="tel:+0364384662">call</a>
         <a href="#content2">Content2</a>
         <a href="./abc/index1.html">Sub</a>
@@ -81,6 +83,54 @@
         <h2 id="hello" class="cssName1 cssName2" style="color: red;">Hello world!</h2>
     </div> -->
 
+    <div class="container-fluid">
+        <div class="row border border-primary p-1 mb-2">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 border border-success">col1</div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 border border-success">col2</div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 border border-success">col3</div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 border border-success">col4</div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 border border-success">col5</div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 border border-success">col6</div>
+        </div>
+        <div class="container-fluid bg-dark p-1 mb-2">
+            <div class="about row text-light ">
+                <div class="col-12 col-md-4 d-none d-md-block">
+                    <img src="./photos/black-cat-back.webp" width="200" height="200">
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="row">
+                        <h4 class="text-center text-md-start" >About Me</h4>
+                        <div class="text-secondary">
+                            <p class="text-secondary">I'm Luu Quoc Thang - A Project Manager with more than 2 years of experience working as Project Manager in T&M project and 3 years of experience working as Team Leader in Fixed-Price project.</p>
+                            <p class="text-secondary">I was a Technical Leader with more than 4 years of experience in development field at FPT Software and more than 1 year of experience in development field at LG Electronics Viet Nam, with good knowledge of System Architecture and Design Pattern.
+                            </p>
+                            <p class="text-secondary">I'm a young and a passionate developer, I always looking for something new to learn (I self-taught Twister Bootstrap with 3 weeks). I like helping other, work well with group and I am a very careful person. I always try to do everything with the highest attention to avoid losing any even small detail in my task.</p>
+                        </div>
+                    </div>
+                    <div class="row font-size-10 text-center text-md-start">
+                        <div class="col-12 col-md-5">
+                            <h4 class="text-center text-md-start">Contact Details</h4>
+                            <p>Luu Quoc Thang</p>
+                            <p><i class="fa-solid fa-calendar-days"></i>01/09/1994</p>
+                            <p><i class="fa-solid fa-location-dot"></i>Dai Mo - Nam Tu Liem - Ha Noi</p>
+                            <p><i class="fa-solid fa-phone"></i>(+84) 0364384662</p>
+                            <p><i class="fa-solid fa-phone"></i>(+84) 0703333199</p>
+                            <p><i class="fa-solid fa-envelope"></i>thanglq.l2t@gmail.com</p>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <button><i class="fa-solid fa-download"></i>Download Resume(CV)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row border border-primary p-1 mb-2">
+            <div class="col-3 border border-success">col 25%</div>
+            <div class="col-6 border border-success">col 50%</div>
+            <div class="col-3 border border-success">col 25%</div>
+        </div>
+    </div>
     <div class="circle"><a href="#header">^</a></div>
     <img src="https://cdn.britannica.com/25/172925-050-DC7E2298/black-cat-back.jpg" width="300" height="300" alt="cat">
     <img src="https://cdn.britannica.com/25/172925-050-DC7E2298/black-cat-back.jpg" width="300" height="300">
@@ -92,10 +142,10 @@
 
     <!-- content2 -begin -->
     <div id="content2">
-        <p>This is the first website <br />
+        <p class="mt-2 mt-xl-5 pt-1 pb-1 border border-primary text-lg-end text-xl-center">This is the first website <br />
             made by <mark><u><span>luu quoc&nbsp;thang&reg;</span></u></mark>
         </p>
-        <pre>This is the first website
+        <pre class="text-danger opacity-25">This is the first website
             made by luu     quoc       thang&reg;
         </pre>
         <hr>
@@ -134,7 +184,7 @@
     <div class="boxtest">
 
     </div>
-<hr>
+    <hr>
     <div class="grandparent">
         <p>thang</p>
         <p>thang</p>
@@ -143,7 +193,7 @@
             <div class="child"></div>
         </div>
     </div>
-   
+
     <table>
         <caption>Student</caption>
         <colgroup>
@@ -169,8 +219,8 @@
             <td>col3</td>
             <td>col4</td>
             <td><input type="radio" name="genderr1" checked></td>
-            <td><input type="radio"  name="genderr1"></td>
-            <td><input type="radio"  name="genderr1"></td>
+            <td><input type="radio" name="genderr1"></td>
+            <td><input type="radio" name="genderr1"></td>
             <td><button onclick="deleleStudent(event)">Delete</button></td>
         </tr>
         <tr>
@@ -179,8 +229,8 @@
             <td>col3</td>
             <td>col4</td>
             <td><input type="radio" name="genderr2"></td>
-            <td><input type="radio"  name="genderr2" checked></td>
-            <td><input type="radio"  name="genderr2"></td>
+            <td><input type="radio" name="genderr2" checked></td>
+            <td><input type="radio" name="genderr2"></td>
             <td><button onclick="deleleStudent(event)">Delete</button></td>
         </tr>
         <tr>
@@ -196,11 +246,11 @@
 
     <h2>Student form</h2>
     <label for="name1">Name:</label>
-        <input id="name1" type="text" required placeholder="enter name"> <br>
+    <input id="name1" type="text" required placeholder="enter name"> <br>
     <form action="">
         <label for="name">Name:</label>
         <input id="name" type="text" required placeholder="enter name"> <br>
-        
+
         <label for="pass">Pass:</label>
         <input id="pass" type="hidden" value="1234"><br>
         <label for="dob">Date:</label>
@@ -237,9 +287,21 @@
         <input type="submit" value="Add">
         <input type="reset" value="Clear">
     </form>
-    
-    <footer>copy right @l2t</footer>
 
+    <footer>
+        <p>copy right @l2t</p>
+        <ul class="ft-icon">
+            <li><a href="https://facebook.com/thang.l2t"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- script  -->
+    <script src="https://kit.fontawesome.com/01f24c40cf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="scripts/script1.js"></script>
     <script src="scripts/script2.js"></script>

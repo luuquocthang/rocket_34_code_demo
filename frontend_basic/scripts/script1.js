@@ -42,8 +42,8 @@ var str1 = "this is str1. You can use ''<br>";
 var str2 = 'this is str2. You can use ""<br>';
 var str3 = `this is str1. ${PI}
 You can use`;
-document.writeln(str1);
-document.writeln(str2);
+// document.writeln(str1);
+// document.writeln(str2);
 console.log(str3);
 
 if (5 === "5") {

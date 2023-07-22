@@ -19,7 +19,7 @@ var abc = {
 };
 
 const POST_LIST = [
-    { id: "1", title: "New 1", like: 10, heart: 20, shared: "5", author:"l2t", status: "old", content: "VTI dang mo 1 khoa hoc Reactjs do mentor Luu Quoc Thang day" },
+    { id: "1", title: "New 1", like: 10, heart: 20, shared: "5", author: "l2t", status: "old", content: "VTI dang mo 1 khoa hoc Reactjs do mentor Luu Quoc Thang day" },
     // { id: "3", title: "New 2", like: 2, heart: 20, shared: "2", author:"l2t", status: "old", content: "VTI la cty cong nghe hang dau viet nam" },
     // { id: "7", title: "New 3", like: 102, heart: 3, shared: "53", author:"l2t", status: "hot", content: "VTI Academy dang la 1 trong nhung don vi hang dau trong linh vuc dao tao nganh cntt" },
     // { id: "10", title: "New 4", like: 101, heart: 4, shared: "51", author:"l2t", status: "old", content: "Hoc vien lop Railway_61 rat la gioi:D" },
@@ -53,23 +53,23 @@ var products = [
         image: 'https://i.im.ge/2022/11/06/2naTm0.tai-xung.jpg',
         name: 'product 1',
         description: 'des 1',
-        price: 100   
+        price: 100
     },
     {
         id: 2,
         image: 'https://i.im.ge/2022/11/06/2naTm0.tai-xung.jpg',
         name: 'product 2',
         description: 'des 3',
-        price: 200  
+        price: 200
     },
     {
         id: 3,
         image: 'https://i.im.ge/2022/11/06/2naTm0.tai-xung.jpg',
         name: 'product 3',
         description: 'des 2',
-        price: 300  
+        price: 300
     }
-  ];
+];
 var messageResponse = {
     "message": "Update project successfully"
 }
@@ -95,233 +95,243 @@ var login = {
 
 const students = [
     {
-      id: "1",
-      name: "John Brown",
-      age: 32,
-      phone: "0364384662",
-      address: "New York No. 1 Lake Park",
-      tags: ["nice", "developer"],
+        id: "1",
+        name: "John Brown",
+        age: 32,
+        phone: "0364384662",
+        address: "New York No. 1 Lake Park",
+        tags: ["nice", "developer"],
     },
     {
-      id: "2",
-      name: "Jim Green",
-      age: 42,
-      phone: "0364384662",
-      address: "London No. 1 Lake Park",
-      tags: ["loser"],
+        id: "2",
+        name: "Jim Green",
+        age: 42,
+        phone: "0364384662",
+        address: "London No. 1 Lake Park",
+        tags: ["loser"],
     },
     {
-      id: "3",
-      name: "Joe Black",
-      age: 32,
-      phone: "0364384662",
-      address: "Sydney No. 1 Lake Park",
-      tags: ["cool", "teacher"],
+        id: "3",
+        name: "Joe Black",
+        age: 32,
+        phone: "0364384662",
+        address: "Sydney No. 1 Lake Park",
+        tags: ["cool", "teacher"],
     },
     {
-      id: "4",
-      name: "John Brown",
-      age: 32,
-      phone: "0364384662",
-      address: "New York No. 1 Lake Park",
-      tags: ["nice", "developer"],
+        id: "4",
+        name: "John Brown",
+        age: 32,
+        phone: "0364384662",
+        address: "New York No. 1 Lake Park",
+        tags: ["nice", "developer"],
     },
     {
-      id: "5",
-      name: "Jim Green",
-      age: 42,
-      phone: "0364384662",
-      address: "London No. 1 Lake Park",
-      tags: ["loser"],
+        id: "5",
+        name: "Jim Green",
+        age: 42,
+        phone: "0364384662",
+        address: "London No. 1 Lake Park",
+        tags: ["loser"],
     },
     {
-      id: "6",
-      name: "Joe Black",
-      age: 32,
-      phone: "0364384662",
-      address: "Sydney No. 1 Lake Park",
-      tags: ["cool", "teacher"],
+        id: "6",
+        name: "Joe Black",
+        age: 32,
+        phone: "0364384662",
+        address: "Sydney No. 1 Lake Park",
+        tags: ["cool", "teacher"],
     },
     {
-      id: "7",
-      name: "John Brown",
-      age: 32,
-      phone: "0364384662",
-      address: "New York No. 1 Lake Park",
-      tags: ["nice", "developer"],
+        id: "7",
+        name: "John Brown",
+        age: 32,
+        phone: "0364384662",
+        address: "New York No. 1 Lake Park",
+        tags: ["nice", "developer"],
     },
     {
-      id: "8",
-      name: "Jim Green",
-      age: 42,
-      phone: "0364384662",
-      address: "London No. 1 Lake Park",
-      tags: ["loser"],
+        id: "8",
+        name: "Jim Green",
+        age: 42,
+        phone: "0364384662",
+        address: "London No. 1 Lake Park",
+        tags: ["loser"],
     },
     {
-      id: "9",
-      name: "Joe Black",
-      age: 32,
-      phone: "0364384662",
-      address: "Sydney No. 1 Lake Park",
-      tags: ["cool", "teacher"],
+        id: "9",
+        name: "Joe Black",
+        age: 32,
+        phone: "0364384662",
+        address: "Sydney No. 1 Lake Park",
+        tags: ["cool", "teacher"],
     },
     {
-      id: "10",
-      name: "John Brown",
-      age: 32,
-      phone: "0364384662",
-      address: "New York No. 1 Lake Park",
-      tags: ["nice", "developer"],
+        id: "10",
+        name: "John Brown",
+        age: 32,
+        phone: "0364384662",
+        address: "New York No. 1 Lake Park",
+        tags: ["nice", "developer"],
     },
     {
-      id: "21",
-      name: "Jim Green",
-      age: 42,
-      phone: "0364384662",
-      address: "London No. 1 Lake Park",
-      tags: ["loser"],
+        id: "21",
+        name: "Jim Green",
+        age: 42,
+        phone: "0364384662",
+        address: "London No. 1 Lake Park",
+        tags: ["loser"],
     },
     {
-      id: "31",
-      name: "Joe Black",
-      age: 32,
-      phone: "0364384662",
-      address: "Sydney No. 1 Lake Park",
-      tags: ["cool", "teacher"],
+        id: "31",
+        name: "Joe Black",
+        age: 32,
+        phone: "0364384662",
+        address: "Sydney No. 1 Lake Park",
+        tags: ["cool", "teacher"],
     },
     {
-      id: "133",
-      name: "John Brown",
-      age: 32,
-      phone: "0364384662",
-      address: "New York No. 1 Lake Park",
-      tags: ["nice", "developer"],
+        id: "133",
+        name: "John Brown",
+        age: 32,
+        phone: "0364384662",
+        address: "New York No. 1 Lake Park",
+        tags: ["nice", "developer"],
     },
     {
-      id: "222",
-      name: "Jim Green",
-      age: 42,
-      phone: "0364384662",
-      address: "London No. 1 Lake Park",
-      tags: ["loser"],
+        id: "222",
+        name: "Jim Green",
+        age: 42,
+        phone: "0364384662",
+        address: "London No. 1 Lake Park",
+        tags: ["loser"],
     },
     {
-      id: "36",
-      name: "Joe Black",
-      age: 32,
-      phone: "0364384662",
-      address: "Sydney No. 1 Lake Park",
-      tags: ["cool", "teacher"],
+        id: "36",
+        name: "Joe Black",
+        age: 32,
+        phone: "0364384662",
+        address: "Sydney No. 1 Lake Park",
+        tags: ["cool", "teacher"],
     },
     {
-      id: "199",
-      name: "John Brown",
-      age: 32,
-      phone: "0364384662",
-      address: "New York No. 1 Lake Park",
-      tags: ["nice", "developer"],
+        id: "199",
+        name: "John Brown",
+        age: 32,
+        phone: "0364384662",
+        address: "New York No. 1 Lake Park",
+        tags: ["nice", "developer"],
     },
     {
-      id: "277",
-      name: "Jim Green",
-      age: 42,
-      phone: "0364384662",
-      address: "London No. 1 Lake Park",
-      tags: ["loser"],
+        id: "277",
+        name: "Jim Green",
+        age: 42,
+        phone: "0364384662",
+        address: "London No. 1 Lake Park",
+        tags: ["loser"],
     },
     {
-      id: "3888",
-      name: "Joe Black",
-      age: 32,
-      phone: "0364384662",
-      address: "Sydney No. 1 Lake Park",
-      tags: ["cool", "teacher"],
+        id: "3888",
+        name: "Joe Black",
+        age: 32,
+        phone: "0364384662",
+        address: "Sydney No. 1 Lake Park",
+        tags: ["cool", "teacher"],
     },
-  ];
-app.get('/posts', cors(), function(req, res, next) {
+];
+
+const test1 = {
+    "a": "thang"
+}
+
+app.get('/test1', cors(), function (req, res, next) {
+    console.log(req);
+    res.json(test1);
+})
+
+app.get('/posts', cors(), function (req, res, next) {
     console.log(req);
     res.json(POST_LIST);
 })
 
-app.post('/product', cors(), function(req, res, next) {
+app.post('/product', cors(), function (req, res, next) {
     res.json(products)
 })
-app.post('/posts', cors(), function(req, res, next) {
+app.post('/posts', cors(), function (req, res, next) {
     res.json(initialPosts)
 })
-app.post('/auth', cors(), function(req, res, next) {
+app.post('/auth', cors(), function (req, res, next) {
     res.json(auth)
 })
 
-app.post('/project/tests/batches/find', cors(), function(req, res, next) {
+app.post('/project/tests/batches/find', cors(), function (req, res, next) {
     let resObj = batches.find(o => o.id === req.body.id)
     res.json(resObj)
 })
 
-app.post('/users', cors(), function(req, res, next) {
+app.post('/users', cors(), function (req, res, next) {
     res.json(users)
 })
 
-app.post('/patient/find', cors(), function(req, res, next) {
-    res.json({'response': patients})
+app.post('/patient/find', cors(), function (req, res, next) {
+    res.json({ 'response': patients })
 })
 
-app.post('/service/find', cors(), function(req, res, next) {
-    res.json({'response': medicalService})
+app.post('/service/find', cors(), function (req, res, next) {
+    res.json({ 'response': medicalService })
 })
 
-app.get('/service/find-one/:id', cors(), function(req, res, next) {
+app.get('/service/find-one/:id', cors(), function (req, res, next) {
     let resObj = medicalService.find(o => o.id.includes(req.params.id))
-    res.json({'response': resObj})
+    res.json({ 'response': resObj })
 })
 
-app.get('/facility/find-one/:id', cors(), function(req, res, next) {
+app.get('/facility/find-one/:id', cors(), function (req, res, next) {
     let resObj = medicalFacilites.find(o => o.id.includes(req.params.id))
-    res.json({'response': resObj})
+    res.json({ 'response': resObj })
 })
 
-app.post('/facility/find', cors(), function(req, res, next) {
-    res.json({'response': medicalFacilites})
+app.post('/facility/find', cors(), function (req, res, next) {
+    res.json({ 'response': medicalFacilites })
 })
 
-app.get('/patient/find-one/:id', cors(), function(req, res, next) {
+app.get('/patient/find-one/:id', cors(), function (req, res, next) {
     let resObj = patients.find(o => o.id.includes(req.params.id))
-    res.json({'response': resObj})
+    res.json({ 'response': resObj })
 })
 
-app.get('/doctor/find-one/:id', cors(), function(req, res, next) {
+app.get('/doctor/find-one/:id', cors(), function (req, res, next) {
     let resObj = doctors.find(o => o.id.includes(req.params.id))
-    res.json({'response': resObj})
+    res.json({ 'response': resObj })
 })
 
-app.post('/doctor/find', cors(), function(req, res, next) {
-    res.json({'response': doctors})
+app.post('/doctor/find', cors(), function (req, res, next) {
+    res.json({ 'response': doctors })
 })
 
-app.post('/user', cors(), function(req, res, next) {
+app.post('/user', cors(), function (req, res, next) {
     let resObj = users.find(o => o.id === req.body.id)
     res.json(resObj)
 })
 
-app.post('/user/update', cors(), function(req, res, next) {
+app.post('/user/update', cors(), function (req, res, next) {
     res.json(messageResponse)
 })
 
-app.post('/user/register', cors(), function(req, res, next) {
+app.post('/user/register', cors(), function (req, res, next) {
     res.json(messageResponse)
 })
 
 
-app.post('/user/login', cors(), function(req, res, next) {
+app.post('/user/login', cors(), function (req, res, next) {
     res.json(login)
 })
 
-app.post('/employees', cors(), function(req, res, next) {
+app.post('/employees', cors(), function (req, res, next) {
     res.json(emplyees)
 })
 
-app.post('/project/find', cors(), function(req, res, next) {
+app.post('/project/find', cors(), function (req, res, next) {
     // console.log(req.body)
     // console.log(req)
     console.log(req.body)
@@ -329,16 +339,16 @@ app.post('/project/find', cors(), function(req, res, next) {
     res.json(resObj)
 })
 
-app.post('/user/find', cors(), function(req, res, next) {
+app.post('/user/find', cors(), function (req, res, next) {
     let resObj = users.filter(o => o.user_name.includes(req.body.user_name))
     res.json(resObj)
 })
 
-app.post('/user/add-to-project', cors(), function(req, res, next) {
+app.post('/user/add-to-project', cors(), function (req, res, next) {
     res.json(messageResponse)
 })
 
-app.post('/project/find-all', cors(), function(req, res, next) {
+app.post('/project/find-all', cors(), function (req, res, next) {
     // console.log(req.body)
     // console.log(req)
     console.log(req.body)
@@ -354,36 +364,36 @@ app.post('/project/find-all', cors(), function(req, res, next) {
 })
 
 
-app.post('/holidays', cors(), function(req, res, next) {
+app.post('/holidays', cors(), function (req, res, next) {
     res.json(holidays)
 })
 
-app.post('/holiday', cors(), function(req, res, next) {
+app.post('/holiday', cors(), function (req, res, next) {
     let resObj = users.find(o => o.id === req.body.id)
     res.json(resObj)
 })
 
-app.post('/holidays/update', cors(), function(req, res, next) {
+app.post('/holidays/update', cors(), function (req, res, next) {
     res.json(messageResponse)
 })
 
-app.post('/holidays/delete', cors(), function(req, res, next) {
+app.post('/holidays/delete', cors(), function (req, res, next) {
     res.json(messageResponse)
 })
 
-app.post('/holidays/register', cors(), function(req, res, next) {
+app.post('/holidays/register', cors(), function (req, res, next) {
     res.json(messageResponse)
 })
 
-app.post('/holidays/upload', cors(), function(req, res, next) {
+app.post('/holidays/upload', cors(), function (req, res, next) {
     res.json(messageResponse)
 })
 
-app.get('/search', function(req, res, next) {
+app.get('/search', function (req, res, next) {
     res.json(searchResult)
 })
 
-app.get('/suggest', function(req, res, next) {
+app.get('/suggest', function (req, res, next) {
     res.json(suggetResult)
 })
 
@@ -394,7 +404,7 @@ app.get('/suggest', function(req, res, next) {
 //             n: a0.name,
 //             d: []
 //         }
-        
+
 //         for (const a1 of a0.districts) { 
 //             let temp1 = {
 //                 n: a1.name, 
@@ -413,24 +423,24 @@ app.get('/suggest', function(req, res, next) {
 //     res.json({'location': b})
 // })
 
-app.get('/location', function(req, res, next) {
-    res.json({'location': location})
+app.get('/location', function (req, res, next) {
+    res.json({ 'location': location })
 })
 
 
-app.post('/category/getbyid/dmkh', function(req, res, next) {
+app.post('/category/getbyid/dmkh', function (req, res, next) {
     res.json(abc)
 })
 
-app.post('/category/save', function(req, res, next) {
+app.post('/category/save', function (req, res, next) {
     res.json(messageResponse)
 })
 
-app.get('/counter/value1', function(req, res, next) {
+app.get('/counter/value1', function (req, res, next) {
     res.json(19);
 })
 
-app.get('/students', function(req, res, next) {
+app.get('/students', function (req, res, next) {
     res.json(students);
 })
 
