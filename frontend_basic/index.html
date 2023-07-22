@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FE Basic</title>
+    <link rel="stylesheet" href="styles/style1.css">
+    <link rel="stylesheet" href="styles/style2.css">  
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            /* background-color: #dddddd; */
+        }
+
+        #content3 {
+            color: rosybrown;
+        }
+
+        .div3 {
+            color: green;
+        }
+
+        p {
+            color: burlywood;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header id="header">
+        <img src="./photos/black-cat-back.webp" width="40px" height="30px">
+        <div>
+            <a href="#content2">Content2</a>
+            <a href="./abc/index1.html">Sub</a>
+            <a href="https://google.com.vn" target="_blank">Google</a>
+            <a href="https://google.com.vn">Google</a>
+            <a href="mailto:thanglq.l2t@gmail.com">mail</a>
+        </div>
+        
+        <!-- <a href="tel:+0364384662">call</a>
+        <a href="#content2">Content2</a>
+        <a href="./abc/index1.html">Sub</a>
+        <a href="https://google.com.vn" target="_blank">Google</a>
+        <a href="https://google.com.vn">Google</a>
+        <a href="mailto:thanglq.l2t@gmail.com">mail</a>
+        <a href="tel:+0364384662">call</a>
+        <a href="#content2">Content2</a>
+        <a href="./abc/index1.html">Sub</a>
+        <a href="https://google.com.vn" target="_blank">Google</a>
+        <a href="https://google.com.vn">Google</a>
+        <a href="mailto:thanglq.l2t@gmail.com">mail</a>
+        <a href="tel:+0364384662">call</a>
+        <a href="#content2">Content2</a>
+        <a href="./abc/index1.html">Sub</a>
+        <a href="https://google.com.vn" target="_blank">Google</a>
+        <a href="https://google.com.vn">Google</a>
+        <a href="mailto:thanglq.l2t@gmail.com">mail</a>
+        <a href="tel:+0364384662">call</a>
+        <a href="#content2">Content2</a>
+        <a href="./abc/index1.html">Sub</a>
+        <a href="https://google.com.vn" target="_blank">Google</a>
+        <a href="https://google.com.vn">Google</a>
+        <a href="mailto:thanglq.l2t@gmail.com">mail</a>
+        <a href="tel:+0364384662">call</a> -->
+    </header>
+    <!-- <div id="content1">
+        <h2 id="hello" class="cssName1 cssName2" style="color: red;">Hello world!</h2>
+    </div> -->
+
+    <div class="circle"><a href="#header">^</a></div>
+    <img src="https://cdn.britannica.com/25/172925-050-DC7E2298/black-cat-back.jpg" width="300" height="300" alt="cat">
+    <img src="https://cdn.britannica.com/25/172925-050-DC7E2298/black-cat-back.jpg" width="300" height="300">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ohe1S02HJqo?start=120"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <!-- <iframe scrolling="no" width=640 height=180 src=https://zingmp3.vn/embed/song/ZZFDIEB6?start=false frameborder="0" allowfullscreen="true"/> -->
+
+    <!-- content2 -begin -->
+    <div id="content2">
+        <p>This is the first website <br />
+            made by <mark><u><span>luu quoc&nbsp;thang&reg;</span></u></mark>
+        </p>
+        <pre>This is the first website
+            made by luu     quoc       thang&reg;
+        </pre>
+        <hr>
+        <address>
+            Dai Mo, Nam Tu Liem, Ha noi
+        </address>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+        <details open>
+            <summary>FE</summary>
+            <p>HTML/CSS/JS</p>
+        </details>
+        <hr>
+    </div>
+
+    <!-- content2 -end -->
+    <div id="content3" class="div3">
+        <ul style="list-style-type:square">
+            <li>
+                <p>content1</p>
+            </li>
+            <li>
+                <p>content2</p>
+            </li>
+            <li>
+                <p>content3</p>
+            </li>
+        </ul>
+
+        <ol type="a" start="10">
+            <li><span>content1</span></li>
+            <li><span>content2</span></li>
+            <li><span>content3</span></li>
+        </ol>
+    </div>
+
+    <div class="boxtest">
+
+    </div>
+<hr>
+    <div class="grandparent">
+        <p>thang</p>
+        <p>thang</p>
+        <p>thang</p>
+        <div class="parent">
+            <div class="child"></div>
+        </div>
+    </div>
+   
+    <table>
+        <caption>Student</caption>
+        <colgroup>
+            <col span="3">
+            <col style="background-color:bisque">
+        </colgroup>
+        <tr>
+            <th rowspan="2">id</th>
+            <th rowspan="2">name</th>
+            <th rowspan="2">birthday</th>
+            <th rowspan="2">mark</th>
+            <th colspan="3">gender</th>
+            <th rowspan="2">Action</th>
+        </tr>
+        <tr>
+            <th>Male</th>
+            <th>female</th>
+            <th>other</th>
+        </tr>
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+            <td>col4</td>
+            <td><input type="radio" name="genderr1" checked></td>
+            <td><input type="radio"  name="genderr1"></td>
+            <td><input type="radio"  name="genderr1"></td>
+            <td><button onclick="deleleStudent(event)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>col1</td>
+            <td>col2</td>
+            <td>col3</td>
+            <td>col4</td>
+            <td><input type="radio" name="genderr2"></td>
+            <td><input type="radio"  name="genderr2" checked></td>
+            <td><input type="radio"  name="genderr2"></td>
+            <td><button onclick="deleleStudent(event)">Delete</button></td>
+        </tr>
+        <tr>
+            <td colspan="3">total</td>
+            <td>col4</td>
+            <td>col4</td>
+            <td>col4</td>
+            <td>col4</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Student form</h2>
+    <label for="name1">Name:</label>
+        <input id="name1" type="text" required placeholder="enter name"> <br>
+    <form action="">
+        <label for="name">Name:</label>
+        <input id="name" type="text" required placeholder="enter name"> <br>
+        
+        <label for="pass">Pass:</label>
+        <input id="pass" type="hidden" value="1234"><br>
+        <label for="dob">Date:</label>
+        <input id="dob" type="date" value="1994-09-01"><br>
+        <label for="mark">Mark:</label>
+        <input id="mark" type="number" max="30"> <br>
+
+        <label for="male">Male</label>
+        <input id="male" type="checkbox" name="gender">
+        <label for="female">Fe-Male</label>
+        <input id="female" type="checkbox" name="gender">
+        <label for="other">Other</label>
+        <input id="other" type="checkbox" name="gender">
+        <br>
+
+        <label for="male">Male</label>
+        <input id="male" type="radio" name="gender">
+        <label for="female">Fe-Male</label>
+        <input id="female" type="radio" name="gender">
+        <label for="other">Other</label>
+        <input id="other" type="radio" name="gender">
+
+        <br>
+        <label for="cars">Car:</label>
+        <select id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="vw">VW</option>
+            <option value="audi" selected>Audi</option>
+        </select>
+
+        <br>
+        <button>Abc</button>
+        <input type="submit" value="Add">
+        <input type="reset" value="Clear">
+    </form>
+    
+    <footer>copy right @l2t</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="scripts/script1.js"></script>
+    <script src="scripts/script2.js"></script>
+</body>
+
+</html>
